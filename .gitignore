@@ -1,0 +1,6 @@
+.github/dependabot.yml
+.github/workflows/greetings.yml
+.github/workflows/auto-assign-pr.yml
+.github/CODEOWNERS
+.github/FUNDING.yml
+.github/workflows/auto-assign-issue.yml
