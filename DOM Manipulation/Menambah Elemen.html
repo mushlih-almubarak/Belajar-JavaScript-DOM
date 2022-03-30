@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>List 1</li>
+        <li>List 2</li>
+    </ul>
+    <script>
+        // Membuat elemen "li" baru
+        let tambahLi = document.createElement('li');
+        // Memasukkan teks ke elemen "li" yang baru dibuat
+        let teks = document.createTextNode('List 3');
+        // Memasukkan teks yang baru dibuat ke elemen "li" yang baru dibuat
+        tambahLi.appendChild(teks);
+        // Menambahkan elemen yang baru dibuat ke setelah akhir dari tag "li"
+        document.querySelector('ul').appendChild(tambahLi);
+    </script>
+</body>
+
+</html>
